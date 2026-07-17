@@ -450,7 +450,7 @@ export default function App() {
 
         const savedUsers = localStorage.getItem('kp_users');
         const defaultUsers: User[] = [
-          { id: 'user-1', username: 'owner', password: 'owner123', name: 'Adi Pemilik', role: 'owner', active: true },
+          { id: 'user-1', username: 'owner', password: 'owner123', name: 'Ilman Pemilik', role: 'owner', active: true },
           { id: 'user-2', username: 'admin', password: 'admin123', name: 'Fajar Admin', role: 'admin', active: true },
           { id: 'user-3', username: 'kasir', password: 'kasir123', name: 'Rina Kasir', role: 'cashier', active: true }
         ];
@@ -998,7 +998,7 @@ export default function App() {
                   "Sistem yang rapi dan pelayanan cepat adalah fondasi utama bagi kemajuan bisnis yang berkelanjutan."
                 </p>
                 <p className="text-white/60 text-[8.5px] md:text-[9.5px] font-bold uppercase tracking-widest mt-2.5">
-                  — TIM KASIR PINTAR PRO
+                  — TIM KASIR 
                 </p>
               </div>
             </div>
