@@ -304,7 +304,7 @@ export default function Dashboard({
 
     // Initialize list from actual users in the database / state
     const activeUsersList = users.length > 0 ? users : [
-      { id: 'user-1', username: 'owner', password: 'owner123', name: 'Adi Pemilik', role: 'owner', active: true },
+      { id: 'user-1', username: 'owner', password: 'owner123', name: 'Ilman Pemilik', role: 'owner', active: true },
       { id: 'user-2', username: 'admin', password: 'admin123', name: 'Fajar Admin', role: 'admin', active: true },
       { id: 'user-3', username: 'kasir', password: 'kasir123', name: 'Rina Kasir', role: 'cashier', active: true }
     ];
@@ -339,7 +339,7 @@ export default function Dashboard({
         // Fallback or match by roles if we have some pre-defined roles and custom cashierName
         const nameKey = t.cashierName.toLowerCase();
         let matchedRole = 'cashier';
-        if (nameKey.includes('owner') || nameKey.includes('adi')) {
+        if (nameKey.includes('owner') || nameKey.includes('Ilman')) {
           matchedRole = 'owner';
         } else if (nameKey.includes('admin') || nameKey.includes('fajar')) {
           matchedRole = 'admin';
