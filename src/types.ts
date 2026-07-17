@@ -270,7 +270,7 @@ export const INITIAL_TRANSACTIONS: Transaction[] = [
     total: 185370,
     paymentMethod: 'qris',
     cashierId: 'user-1',
-    cashierName: 'Adi Pemilik',
+    cashierName: 'Ilman Pemilik',
   },
   {
     id: 'tx-007',
